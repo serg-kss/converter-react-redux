@@ -1,0 +1,77 @@
+.resultList {
+  width: 962px;
+  height: auto;
+  background-color: #f6f7ff;
+  border-radius: 4px 4px 4px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+.resultListHeader {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resultListTitle {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 500;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #1f1e3f;
+}
+.resultListBtn {
+  width: 187px;
+  height: 51px;
+  border-radius: 4px 4px 4px 4px;
+  color: #f6f7ff;
+  background-color: #2c36f2;
+}
+.resultListContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.record {
+  width: 392px;
+  height: 42px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #ffffff;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.recordDate {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #c1c2ca;
+}
+.recordText {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #707c87;
+}

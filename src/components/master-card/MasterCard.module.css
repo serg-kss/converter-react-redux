@@ -1,0 +1,63 @@
+.masterCard {
+  display: flex;
+  width: 100vw;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masterCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+}
+.masterCardInfo {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.masterCardTitle {
+  font-family: Roboto;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 63.28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.masterCardText {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 400px;
+}
+
+.materCardLink {
+  width: 234px;
+  height: 53px;
+  top: 313px;
+  left: 250px;
+  gap: 0px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}

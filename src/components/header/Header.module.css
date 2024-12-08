@@ -1,0 +1,20 @@
+.header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.navigationList {
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+}
+.navigationLinks {
+    list-style-type: none;
+}
+.headerAuth {
+    display: flex;
+}

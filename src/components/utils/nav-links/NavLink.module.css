@@ -1,0 +1,19 @@
+.link {
+  text-decoration: none;
+  color: #707c87;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.link:hover {
+  color: #2C36F2;
+}
+.linkContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
